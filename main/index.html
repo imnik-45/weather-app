@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather-Frcast</title>
+    <title>Weather-Forcast</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
 
-    <h1>This is weather app........</h1>
-    <p>Welcome to check your weather</p>
+    <h1>weather</h1>
+    
 
-    <script src="script.js" async defer></script>
+    <div class="location">
+        <h1 class="timezone"></h1>
+        <div class="icon">
+            <img src="icons/unknown.png" alt="">
+        </div>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree"></h2>
+            <span>C</span>
+        </div>
+  
+        <div class="temperature-description"></div>
+    </div>
+
+    <script src="skycons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
