@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
 // weather function
 
 function getWeather(lat, long) {
-  let key = "d840f053767018d35c60ec9783465d14";
+  let key = "your openweathermap api key. Signup to obtain api";
   let api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}`;
 
   fetch(api)
