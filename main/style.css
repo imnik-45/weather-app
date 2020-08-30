@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
 }
 
 .location,
-.temperature{
+.temperature {
     height: 30vh;
     width: 50%;
     display: flex;
@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 
-.temperature{
+.temperature {
     flex-direction: column;
     align-items: center;
     font-size: 2em;
@@ -32,30 +32,30 @@ body{
 
 
 
-.degree-section{
+.degree-section {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.degree-section span{
+.degree-section span {
     margin: 10px;
     font-size: 30px;
 }
 
-.degree-section h2{
-font-size: 40px;
+.degree-section h2 {
+    font-size: 40px;
 }
 
-.icon{
+.icon {
     width: 300px;
     height: 128px;
-   
+
 }
 
-.icon img{
+.icon img {
     display: block;
     margin: 0 auto;
-  
-    
+
+
 }
